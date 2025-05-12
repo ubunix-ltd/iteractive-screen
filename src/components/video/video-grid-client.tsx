@@ -57,37 +57,37 @@ export function VideoGridClient({ videos }: VideoGridClientProps) {
 		<div
 			className="flex flex-col h-full "
 			style={{
-				// backgroundImage:
-				// 	"url(https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/videos//01-01.jpg)",
+				backgroundImage:
+					"url(https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/background//background.jpg)",
 				backgroundPosition: "fit",
 				backgroundSize: "cover",
 				backgroundRepeat: "no-repeat",
-        backgroundPositionY: "47%",
+				backgroundPositionY: "47%",
 			}}
 		>
 			<header className="text-center px-4 sm:px-6 py-6">
-        <div className="flex justify-start ">
-        <img
-					src="https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/videos//logo.svg"
-					alt="Decorative SVG"
-					height={100}
-					width={200}
-				/>
-        </div>
+				<div className="flex justify-start ">
+					<img
+						src="https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/videos//logo.svg"
+						alt="Decorative SVG"
+						height={100}
+						width={200}
+					/>
+				</div>
 				<div className="">
-        <h1
-					className="text-4xl font-bold pt-10"
-					style={{ color: "var(--color-primary-red)" }}
-				>
-					Solutions Beyond Connectivity
-				</h1>
-				<p className="text-lg text-muted-foreground">
-					Tap on a video to play it fullscreen.
-				</p>
+					<h1
+						className="text-4xl font-bold pt-4 font-vodafone"
+						style={{ color: "var(--color-primary-red)" }}
+					>
+						Solutions Beyond Connectivity
+					</h1>
+					<p className="text-lg text-muted-foreground font-vodafone">
+						Tap on a video to play it fullscreen.
+					</p>
 
-        </div>
+				</div>
 			</header>
-			<div className="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 p-4 sm:p-6 ">
+			<div className="flex-grow grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 p-4 sm:p-6 ">
 				{videos.map((video) => (
 					<VideoCard key={video.id} video={video} onClick={handleCardClick} />
 				))}
@@ -101,7 +101,7 @@ export function VideoGridClient({ videos }: VideoGridClientProps) {
 			)}
 			<footer className="text-center px-4 sm:px-6 py-6">
 				{/* biome-ignore lint/a11y/noSvgWithoutTitle: <explanation> */}
-				
+
 			</footer>
 		</div>
 	);

@@ -46,7 +46,7 @@ export function VideoCard({ video, onClick }: VideoCardProps) {
           </div>
         </div>
         <div className="p-4"> {/* Inner div to provide padding for text content */}
-          <CardTitle className="text-lg font-semibold mb-2 group-hover:text-accent" style={{color: "var(--color-primary-red)"}}>{video.title}</CardTitle>
+          <CardTitle className="text-lg font-semibold mb-2 group-hover:text-accent font-vodafone" style={{color: "var(--color-primary-red)"}}>{video.title}</CardTitle>
           {/* <p className="text-sm text-muted-foreground line-clamp-2">{video.description}</p> */}
         </div>
       </CardContent>

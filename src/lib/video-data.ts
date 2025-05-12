@@ -28,4 +28,12 @@ export const initialVideos: Video[] = [
     videoUrl: 'https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/videos//VBU_cloud%202.mp4', 
     aiHint: 'abstract art',
   },
+  {
+    id: '4',
+    title: 'Vodacom\'s Journey to a Future-Ready Tech Ecosystem',
+    description: 'A mesmerizing display of colorful inks and fluids interacting in slow motion, creating artistic patterns.',
+    thumbnailUrl: 'https://qjjklyugfxbxgwqhanfs.supabase.co/storage/v1/object/public/videos//doodle.jpg',
+    videoUrl: 'https://media-hosting.imagekit.io/f7b8c9bf00024753/vodacom%20future%20ready%20summit%20Doodle.mp4?Expires=1841619098&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=aocBTZ5cQg2034G-lg3sc7MdszhrzF-aFFJaQlFzgeNY4ksNG9zwG5Oqd7izjWjl8Nq0uKnDn7VU74cb~Sg9M8YKTDsi8cM~dAXuzuClM7WP9m139P-vL5de6xLRohZqMAlwmrZyy6UtQ6u3qOqsdOL~xRTWfzVHkRwozD2GqVvCNDeBNnfmDXCZHUK1PEWLD3SVPRwDwvc03AvscAEuQpE3rgs5pbvGV82sZfpjiyZ0xs5OkSleR9zxYkuq6CjkQ2Nk8lU7ftpL45GM6UcBzhNmxiPwWBBmxC-uchDq-Hd~gweZngJ-iMxuw2fE6VnNR86gQxWcTz78xly6lw6apA__', 
+    aiHint: 'abstract art',
+  },
 ];
